@@ -1,0 +1,88 @@
+.jumbotron {
+    width: 100%;
+    height: 758px;
+    background-image: url(https://source.unsplash.com/1000x800?life);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    overflow: auto;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 758px;
+    content: "";
+    background: black;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+.title {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.title-line-cross {
+    width: 300px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.title-line-straight1 {
+    width: 1px;
+    height: 80px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.title-line-straight2 {
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.title-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.title-btn {
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.title-btn:active {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.title-btn:hover {
+    padding: 20px;
+    border: 2px solid #7bffd6;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #7bffd6;
+}

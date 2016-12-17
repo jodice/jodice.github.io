@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style-contact.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>contact</title>
+</head>
+
+<body>
+
+    <!--選單-->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a class="home-btn" href="../index.html">Home</a></li>
+                <li><a class="home-btn" href="about.html">About</a></li>
+                <li><a class="home-btn" href="works.html">Works</a></li>
+                <li> <a class="home-btn" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--輪播開始-->
+    <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!--輪播圖片或內容-->
+            <div class="item active">
+                <img src="https://source.unsplash.com/1000x300?holiday" alt="">
+            </div>
+            <div class="item">
+                <img src="https://source.unsplash.com/1000x300?people" alt="">
+            </div>
+            <div class="item">
+                <img src="https://source.unsplash.com/1000x300?art" alt="">
+            </div>
+            <div class="item">
+                <img src="https://source.unsplash.com/1000x300?food" alt="">
+            </div>
+        </div>
+
+        <!--小圓點換頁-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+            <li data-target="#slideshow" data-slide-to="3"></li>
+        </ol>
+    </div>
+    <!--輪播結尾-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--表單開始-->
+                <form>
+                    <!--欄位標籤與輸入方塊組開始-->
+                    <div class="form-group">
+                        <label for="exampleInputname">Name</label>
+                        <input type="Name" class="form-control" id="exampleInputEmail1" placeholder="">
+                    </div>
+                    <!--欄位標籤與輸入方塊組結尾-->
+                    <div class="form-group">
+                        <label for="exampleInputemail">Email</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputsubject">Subject</label>
+                        <br>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputsubject">Massage</label>
+                        <br>
+                        <input type="password" class="form-control1" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <!--表單結尾-->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+/*
+ header
+*/
+
+header {
+    height: 300px;
+    color: white;
+    background-image: url(https://source.unsplash.com/1000x200?live);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+引文
+*/
+
+blockquote {
+    background-image: url(../images/icon_Quote.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+.thumbnail {
+    width: calc(25% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    text-decoration: inherit
+}
+
+.caption-body {
+    line-height: 30px;
+    text-align: inherit;
+}
+
+.caption-btn {
+    display: block;
+    width: 70px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    border: 3px solid #00e2ff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.caption-btn:link {
+    font-size: 20px;
+    color: #cc2828;
+}
+
+.caption-btn:visited {
+    color: gray;
+}
+
+.caption-btn:hover {
+    font-size: 23px;
+}
+
+.caption-btn:active {
+    font-size: 23px;
+    color: blue;
+}

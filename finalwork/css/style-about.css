@@ -1,0 +1,289 @@
+nav ul {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+}
+
+li {
+    position: relative;
+    left: 50px;
+    width: calc(100%*3/12);
+    display: inline-block;
+    float: left;
+}
+
+.home-btn {
+    width: 100%;
+    height: 40px;
+    float: left;
+    padding: 15px;
+    margin: 0px auto;
+    line-height: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    width: 100%;
+    height: 40px;
+    float: left;
+    padding: 15px;
+    margin: 0px auto;
+    line-height: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    overflow: auto;
+}
+
+.icon {
+    position: relative;
+    top: 80px;
+    left: 120px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../image/jodice.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    border: 1px solid #afb1b1;
+}
+
+.caption {
+    position: relative;
+    top: 80px;
+    left: 60px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.link-btn .fb img {
+    width: 20px;
+}
+
+.link-btn .ig img {
+    width: 23px;
+}
+
+h4 {
+    line-height: 30px;
+}
+
+.thin-line1 {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 1px;
+    background-color: #3c3c3c;
+}
+
+.section {
+    position: relative;
+    left: 120px;
+    top: 120px;
+    margin: 20px;
+}
+
+.ps-level {
+    position: relative;
+    top: -15px;
+    left: 140px;
+    width: 150px;
+    height: 10px;
+    background-color: #37edae;
+}
+
+.ai-level {
+    position: relative;
+    top: -15px;
+    left: 140px;
+    width: 150px;
+    height: 10px;
+    background-color: #37edae;
+}
+
+.ae-level {
+    position: relative;
+    top: -15px;
+    left: 140px;
+    width: 100px;
+    height: 10px;
+    background-color: #37edae;
+}
+
+.id-level {
+    position: relative;
+    top: -15px;
+    left: 140px;
+    width: 130px;
+    height: 10px;
+    background-color: #37edae;
+}
+
+.space {
+    width: 300px;
+    height: 75px;
+}
+
+.maya-level {
+    position: relative;
+    top: -15px;
+    left: 140px;
+    width: 80px;
+    height: 10px;
+    background-color: #37edae;
+}
+
+.su-level {
+    position: relative;
+    top: -15px;
+    left: 140px;
+    width: 110px;
+    height: 10px;
+    background-color: #37edae;
+}
+
+.thin-line2 {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 0.8px;
+    background-color: #3c3c3c;
+}
+
+.straight-line {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 3px;
+    height: 300px;
+    background-color: #3c3c3c;
+}
+
+.dot1 {
+    position: relative;
+    top: 25px;
+    left: -38px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #37edae;
+}
+
+.dot2 {
+    position: relative;
+    top: 25px;
+    left: -38px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #37edae;
+}
+
+.dot3 {
+    position: relative;
+    top: 25px;
+    left: -38px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #37edae;
+}
+
+h2 {
+    color: #414141;
+}
+
+.article1 p {
+    color: gray;
+}
+
+.article2 p {
+    color: gray;
+}
+
+.article3 p {
+    color: gray;
+}
+
+.article1 {
+    position: relative;
+    top: -285px;
+    left: 50px;
+}
+
+.article2 {
+    position: relative;
+    top: -270px;
+    left: 50px;
+}
+
+.article3 {
+    position: relative;
+    top: -255px;
+    left: 50px;
+}
+
+.article-img {
+    position: relative;
+    top: 120px;
+    left: -80px;
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+}
+
+.article-img img {
+    width: 100%;
+}
+
+.thin-line3 {
+    position: relative;
+    top: -50px;
+    width: 100%;
+    height: 1px;
+    background-color: #3c3c3c;
+}
+
+.thumbnail {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+}
+
+.thumbnail:hover {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.thumbnail:after {
+    position: relative;
+    top: -32px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    display: block;
+    content: "TITLE";
+    color: #000000;
+    opacity: 0.6;
+    background-color: #37edae;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
